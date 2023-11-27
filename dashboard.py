@@ -299,4 +299,4 @@ st.pyplot(fig)
 
 # Footer
 st.subheader("Work Done By:")
-st.text("Kreshnayogi Dava Berliansyach\nLouis Widi Anandaputra\nTeuku Aldi Fadhlur Rahman\n\nAs a means of completing Data Base Course Final Task - 2023")
+st.text("Kreshnayogi Dava Berliansyach\nLouis Widi Anandaputra\nTeuku Aldi Fadhlur Rahman\n\nAs a means of completing Database Course Final Task - 2023")
