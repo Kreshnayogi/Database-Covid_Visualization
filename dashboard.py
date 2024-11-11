@@ -8,12 +8,12 @@ import geopandas as gpd
 world = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))
 
 # Load Data
-data = pd.read_csv("full_data.csv") 
+data = pd.read_csv("/Users/kreshnayogi/Desktop/Programs/Database-Covid-Visualization/full_data.csv") 
 data.sort_values(by="date", inplace=True)
 data.reset_index(inplace=True)
 data['date'] = pd.to_datetime(data['date'])
 
-summarized_data = pd.read_csv('owid-covid-latest.csv')
+summarized_data = pd.read_csv('/Users/kreshnayogi/Desktop/Programs/Database-Covid-Visualization/owid-covid-latest.csv')
 summarized_data['last_updated_date'] = pd.to_datetime(summarized_data['last_updated_date'])
 
 # Title
